@@ -8,3 +8,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.3.181:8761/eureka/
+server:
+  port: 8762
