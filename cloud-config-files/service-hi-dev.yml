@@ -1,3 +1,4 @@
+testfoo: testfoo123
 db-config:
   spring:
     jpa:
