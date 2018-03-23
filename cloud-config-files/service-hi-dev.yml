@@ -4,3 +4,7 @@ db-config:
     jpa:
       pro1: value1
       pro2: value2
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.3.181:8761/eureka/
