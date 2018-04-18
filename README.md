@@ -14,8 +14,12 @@
 		- 使用注册中心能力即可，待续
 	- Spring Cloud Config 集群 
 		- 使用注册中心能力即可，待续
-	- 熔断监控 - hystrix dashboard
-	- 链路跟踪 - Sleuth
+	- [熔断监控 - hystrix dashboard](./docs/quickstart-hystric-dashboard.md)   
+		* 新版本集成dashboard stream有问题,后续补充
+	- 熔断监控 - hystrix dashboard-Turbine
+		* 新版本集成dashboard stream有问题,后续补充
+	- [链路跟踪 - Sleuth](./docs/quickstart-sleuth.md)  
+	- [链路跟踪 - Sleuth - Zipkin整合](./docs/quickstart-sleuth-zipkin.md)
 	- Spring Cloud Stream
 	- 监控 - Spring Boot Admin
 	- 监控 - EFK的集成  

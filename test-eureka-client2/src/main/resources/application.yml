@@ -10,6 +10,10 @@ spring:
   sleuth:
     feign:
       enabled: true
+  zipkin:
+    baseUrl: http://192.168.3.181:9411/
+    sender:
+      type: web
 feign:
   hystrix:
     enabled: true
