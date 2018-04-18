@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.3.181:8761/eureka/
+server:
+  port: 8801
+spring:
+  application:
+    name: config-server
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xiaodm/springcloud-study.git
+          username: xiaodm
+          password: xiao533968
+          searchPaths: cloud-config-files
+      label: master

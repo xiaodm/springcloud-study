@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: service-hi
+  cloud:
+    config:
+      uri: http://192.168.3.181:8801/
+      profile: dev
+      label: master
+  sleuth:
+    feign:
+      enabled: true
+feign:
+  hystrix:
+    enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,metrics,httptrace,logfile

@@ -1,0 +1,32 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.3.181:8761/eureka/
+server:
+  port: 8770
+spring:
+  application:
+    name: service-zuul
+
+zuul:
+  routes:
+    api-a:
+      path: /api1/**
+      serviceId: service-hi
+    api-b:
+      path: /api2/**
+      serviceId: service-feign1
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+#  SendErrorFilter:
+#    post:
+#      disable: true
+#feign:
+#  hystrix:
+#    enabled: true
+
+#niws:
+#  loadbalancer:
+#    availabilityFilteringRule:
+#      filterCircuitTripped: false
