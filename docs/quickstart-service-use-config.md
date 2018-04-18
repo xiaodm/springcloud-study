@@ -16,11 +16,8 @@ Spring Boot管理服务：boot-admin
 
 
 ### 配置中心仓库    
-Spring Cloud Config支持的配置存储方式为：  
-* 本地文件  
-* svn  
-* git  
-这里我们选择git作为配置信息存储(GitHub/GitLab)  
+紧接上文，我们使用git作为配置信息存储(GitHub/GitLab)  
+并且已经建立配置服务`cloud-config-server`,启动地址为`http://192.168.3.181:8801/`
 
 ### 新建远程配置文件
 以服务`service-hi`为例,将service-hi相关的配置信息写入`service-hi-dev.yml`  
