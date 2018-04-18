@@ -8,7 +8,7 @@
 
 ### 服务项目名称
 __服务注册中心：test-eureka-server(本文)__  
-服务1：test-eureka-client1
+服务1：test-eureka-client1  
 服务2：test-eureka-client2  
 路由服务：test-zuul    
 统一配置配置服务：cloud-config-server  
@@ -116,7 +116,7 @@ server:
 eureka:
   client:
     registerWithEureka: false
-    fetchRegistry: false  
+    fetchRegistry: false    
 	
 spring:
   application:
