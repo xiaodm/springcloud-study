@@ -3043,3 +3043,4 @@ Proxy opening connection to: http://localhost:8764/hystrix.stream
 2018-04-18 19:18:45.239  INFO [service-feign1,d331a13958dd6ee6,d331a13958dd6ee6,false] 17716 --- [http-nio-8764-exec-2] test.example.HiController                : service2 call sayHi
 2018-04-18 19:18:46.361  INFO [service-feign1,5985d2a63fa8255a,5985d2a63fa8255a,false] 17716 --- [http-nio-8764-exec-6] test.example.HiController                : service2 call sayHi
 2018-04-18 19:19:06.114  INFO [service-feign1,9e4f2bb4f071bf58,9e4f2bb4f071bf58,true] 17716 --- [http-nio-8764-exec-4] test.example.HiController                : service2 call sayHi
+2018-04-18 19:23:39.625  INFO [service-feign1,,,] 17716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
