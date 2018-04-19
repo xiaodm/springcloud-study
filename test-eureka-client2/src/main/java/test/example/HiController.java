@@ -21,7 +21,9 @@ public class HiController {
     @RequestMapping(value = "/hic",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
         log.info("service2 call sayHi");
-        return "service-feign1 get by feign: " + iServiceHi.sayHiFromClientOne(name);
+        String rlt = "service-feign1 get by feign: " + iServiceHi.sayHiFromClientOne(name);
+        log.info(rlt);
+        return rlt;
     }
 
     @RequestMapping(value = "/test",method = RequestMethod.GET)
