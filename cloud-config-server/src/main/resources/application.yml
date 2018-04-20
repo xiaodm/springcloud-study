@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xiaodm/springcloud-study.git
+          uri: https://github.com/xiaodm/springcloud-config.git
           username: xiaodm
           password: xiao533968
           searchPaths: cloud-config-files

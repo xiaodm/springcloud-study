@@ -22,9 +22,16 @@
 	- [链路跟踪 - Sleuth - Zipkin整合](./docs/quickstart-sleuth-zipkin.md)
 	- Spring Cloud Stream
 	- [监控 - Spring Boot Admin]()
-	- [监控 - ELK/EFK的集成]() 
+	- [监控 - ELK/EFK的集成](./docs/quickstart-elk-inte.md) 
 * 与docker集成  
 * 与Kubernetes集成
 * 其他    
-	- 配置参考
+	- 配置参考  
+	- Spring Cloud Turbine   
+	- Spring Cloud Stream  
+	- Spring Cloud Security
+	- _Spring Cloud Contract_  
+	- _Spring Cloud Gateway_
+	- _Spring Cloud Cloud Foundry_
+
 * 参考
