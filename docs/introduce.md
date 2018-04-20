@@ -127,6 +127,9 @@ __Zuul的能力__
 * Spring Cloud Sleuth  
 * Spring Cloud Stream  
 * Spring Cloud Contract  
+* Spring Cloud Gateway
+* Spring Cloud Security
+* Spring Cloud Cloud Foundry
 
 
  
