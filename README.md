@@ -32,6 +32,13 @@
 	- Spring Cloud Security
 	- _Spring Cloud Contract_  
 	- _Spring Cloud Gateway_
-	- _Spring Cloud Cloud Foundry_
+	- _Spring Cloud Cloud Foundry_  
+	
+* 后续跟踪问题  
+	- graphql 使用
+	- spring cloud 组件自己的集群，zuul  
+	- euraka集群
+	- 服务联调
+	- 时间同步 - sleuth
 
 * 参考
