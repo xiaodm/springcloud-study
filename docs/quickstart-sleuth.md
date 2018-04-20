@@ -1,5 +1,13 @@
 ## Spring Cloud Quick Start - 服务跟踪 - Sleuth
-还是以`test-eureka-client1、test-eureka-client2`服务为例。
+还是以`test-eureka-client1、test-eureka-client2`服务为例。    
+![sleuth](./imgs/sleuth.png)  
+* Span  
+Span是基本的工作单元。Span包括一个64位的唯一ID，一个64位trace码，描述信息，时间戳事件，  
+key-value 注解(tags)，span处理者的ID（通常为IP）。  
+最开始的初始Span称为根span，此span中span id和 trace id值相同。
+* Trance  
+包含一系列的span，它们组成了一个树型结构
+
 
 ### 实验环境说明  
 
