@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.3.181:8761/eureka/
+spring:
+  application:
+    name: graphql-todo-app
+server:
+  port: 9000
+#graphql:
+#      servlet:
+#               mapping: /graphql
+#               enabled: true
+#               corsEnabled: true
+graphiql:
+  mapping: /graphiql
+  endpoint: /graphql
+  enabled: true
+  pageTitle: GraphiQL

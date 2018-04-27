@@ -1,7 +1,10 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.3.181:8761/eureka/
+#      defaultZone: http://192.168.3.181:8761/eureka/
+      defaultZone: http://192.168.3.181:8781/eureka/,http://192.168.3.181:8782/eureka/
+  instance:
+    preferIpAddress: true
 server:
   port: 8764
 spring:
@@ -10,6 +13,8 @@ spring:
   sleuth:
     feign:
       enabled: true
+    sampler:
+      percentage: 1
   zipkin:
     baseUrl: http://192.168.3.181:9411/
     sender:

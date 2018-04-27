@@ -16,6 +16,9 @@ zuul:
     api-b:
       path: /api2/**
       serviceId: service-feign1
+    api-c:
+      path: /graphql-test/**
+      url: http://localhost:9000/graphql
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000

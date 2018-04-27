@@ -3,14 +3,17 @@ spring:
     name: eureka-server
 
 server:
-  port: 8761
+  port: 8782
 
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+        defaultZone: http://192.168.3.181:8781/eureka/
   instance:
     preferIpAddress: true
+    hostname: eureka-peer2
   server:
     waitTimeInMsWhenSyncEmpty: 0
     enableSelfPreservation: false
